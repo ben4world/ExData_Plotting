@@ -15,4 +15,4 @@ plot(file$DateTime,file$Sub_metering_1,type="n",xlab="", ylab="Energy sub meteri
 points(file$DateTime,file$Sub_metering_1,type="line")  
 points(file$DateTime,file$Sub_metering_2,type="line",col="red")
 points(file$DateTime,file$Sub_metering_3,type="line",col="blue")
-legend("topright", col = c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex = 0.8,lty = 1,bty = "n")
+legend("topright", col = c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex = 0.8,lty = 1)
